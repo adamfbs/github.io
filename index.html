@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="https://cdnjs.com/libraries/bodymovin" type="text/javascript"></script>
+<script src="https://cdnjs.com/libraries/lottie-web" type="text/javascript"></script>
+<script  type="text/javascript" >
+
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById('lottie'), // Required
+  path: 'data.json', // Required
+  renderer: 'svg', // Required
+  loop: false, // Optional
+  autoplay: true, // Optional
+  name: "Hello World", // Name for future reference. Optional.
+})
+
+</script>
+</head>
+<body>
+<div id="lottie">
+</div>
+</body>
